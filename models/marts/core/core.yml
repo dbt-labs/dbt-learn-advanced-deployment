@@ -23,3 +23,7 @@ models:
         tests:
           - unique
           - not_null
+
+  - name: fct_web_events
+    description: Aggregations on the page view level
+    
