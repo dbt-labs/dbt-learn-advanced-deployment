@@ -6,4 +6,4 @@ This course is designed to help dbt users expand their knowledge on deploying th
 - Check out the [Google doc](https://docs.google.com/document/d/1eKB3AKp0B-7JM6ditawX6styMlsVeB_tarFeoWlbLmw/edit#heading=h.goagvsdbtjn8)
 - Check out the [Asana board](https://app.asana.com/0/1202285925158690/1202300042484015/f)
 
-![To Infinity and Beyond!](https://imgur.com/t/to_infinity_and_beyond/Hz8NR7I)
+![To Infinity and Beyond!](https://i.imgur.com/jnZ3uoQ.gif)
