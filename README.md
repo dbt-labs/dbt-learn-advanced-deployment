@@ -1,15 +1,9 @@
-Welcome to your new dbt project!
-
-### Using the starter project
-
-Try running the following commands:
-- dbt run
-- dbt test
-
+### Introduction to Advanced Deployment Course
+This course is designed to help dbt users expand their knowledge on deploying their dbt project. Since the course focuses primarily on deployment configurations, the repository for this course is relatively unimportant. However, the creators of this course did want to include at least one incremental model so that certain jobs that require awareness of incremental models could be exmplified.
 
 ### Resources:
-- Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
-- Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
-- Join the [dbt community](http://community.getbdt.com/) to learn from other analytics engineers
-- Find [dbt events](https://events.getdbt.com) near you
-- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
+- Check out the [Notion page](https://www.notion.so/dbtlabs/Advanced-Deployment-Course-7c11a14a8336428e975cbec902ca7dbe)
+- Check out the [Google doc](https://docs.google.com/document/d/1eKB3AKp0B-7JM6ditawX6styMlsVeB_tarFeoWlbLmw/edit#heading=h.goagvsdbtjn8)
+- Check out the [Asana board](https://app.asana.com/0/1202285925158690/1202300042484015/f)
+
+![To Infinity and Beyond!](https://i.imgur.com/jnZ3uoQ.gif)

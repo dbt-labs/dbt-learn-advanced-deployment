@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: stg_snowplow__events
+    description: This model cleans up click events tracked by snowplow
+    columns:
+      - name: event_id
+        description: Primary key
+        tests:
+          - unique
+          - not_null
