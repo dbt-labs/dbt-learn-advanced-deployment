@@ -1,0 +1,16 @@
+version: 2
+
+exposures:
+  
+  - name: _exp_customers
+    type: dashboard
+    maturity: high
+    description: >
+      People who just can't get enough of these jaffles!
+    
+    depends_on:
+      - ref('dim_customers')
+      
+    owner:
+      name: Sam "The Jaffler" Harting
+      email: jaffle_master@jaffleshop.com
