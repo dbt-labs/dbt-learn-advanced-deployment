@@ -4,7 +4,7 @@ sources:
     database: raw
     loaded_at_field: collector_tstamp
     freshness:
-      warn_after: {count: 8, period: hour}
-      error_after: {count: 16, period: hour}
+      warn_after: {count: 24, period: hour}
+      error_after: {count: 36, period: hour}
     tables:
       - name: events
