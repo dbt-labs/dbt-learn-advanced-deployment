@@ -26,3 +26,9 @@ models:
 
   - name: fct_web_events
     description: Aggregations on the page view level
+    columns:
+      - name: page_view_id
+        description: Primary key for web events
+        tests:
+          - unique
+          - not_null
