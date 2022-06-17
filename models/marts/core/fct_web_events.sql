@@ -20,6 +20,7 @@ page_views as (
 ),
 
 aggregated_page_events as (
+  
 
   select
     page_view_id,
