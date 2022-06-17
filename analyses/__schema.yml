@@ -1,0 +1,7 @@
+version: 2
+
+analyses:
+  - name: _analysis_top_ten_customers
+    docs:
+      show: true
+    
