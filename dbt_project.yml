@@ -33,6 +33,6 @@ clean-targets:         # directories to be removed by `dbt clean`
 # using the `{{ config(...) }}` macro.
 models:
   advanced_deployment_course:
-    # Applies to all files under models/example/
+    post-hook: 'grant select on {{ this }} to role TRANSFORMER'
     marts:
       materialized: table
