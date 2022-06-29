@@ -1,4 +1,4 @@
-{% macro check_columns() %}
+{% macro compare_columns() %}
 
 {%- set columns_to_compare=adapter.get_columns_in_relation(ref('fct_orders'))  -%}
 
