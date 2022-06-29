@@ -1,3 +1,7 @@
+{{ config(
+    post_hook="grant select on {{ this }} to role TRANSFORMER"
+) }}
+
 with orders as  (
 
     select * from {{ ref('stg_jaffle_shop__orders' )}}
