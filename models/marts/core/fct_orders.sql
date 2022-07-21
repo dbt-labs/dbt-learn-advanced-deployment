@@ -32,7 +32,7 @@ final as (
         orders.order_id,
         orders.customer_id,
         orders.order_date,
-        coalesce(order_payments.amount_usd, 0) as amount
+        coalesce(order_payments.amount_usd, 0) + 1 as amount
 
     from orders
     left join order_payments using (order_id)
