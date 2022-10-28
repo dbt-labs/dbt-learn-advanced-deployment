@@ -31,6 +31,7 @@ final as (
 
         orders.order_id,
         orders.customer_id,
+        -- adjusting fct_orders
         orders.order_date,
         coalesce(order_payments.amount_usd, 0) as amount
 
