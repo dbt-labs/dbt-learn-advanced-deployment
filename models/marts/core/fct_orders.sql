@@ -39,3 +39,4 @@ final as (
 )
 
 select * from final
+-- comment at the end to test Slim CI
