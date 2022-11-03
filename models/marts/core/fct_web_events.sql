@@ -20,12 +20,14 @@ page_views as (
 ),
 
 aggregated_page_events as (
+  
 
   select
     page_view_id,
     count(*) * 10 as approx_time_on_page,
     min(derived_tstamp) as page_view_start,
     max(collector_tstamp) as max_collector_tstamp
+    
 
   from events
   group by 1
